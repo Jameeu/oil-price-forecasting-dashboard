@@ -4,17 +4,23 @@
 This project is an interactive dashboard for analyzing and forecasting crude oil prices.
 
 ## Features
-- Loads crude oil price data
-- Cleans and processes time-series data
-- Visualizes historical oil price trends
-- Computes moving averages
-- Generates simple price forecasts
+- Upload crude oil price data
+- Preview dataset
+- Visualize oil price trends
+- Compute 7-day and 30-day moving averages
+- Generate a simple moving average forecast
 
 ## Tools
 - Python
-- pandas
-- Matplotlib
 - Streamlit
+- pandas
+- NumPy
+- Matplotlib
 
-## Relevance
-This project demonstrates data analysis, forecasting, dashboard development, and energy-market analytics.
+## Dataset Format
+The uploaded CSV file should contain:
+
+```csv
+Date,Price
+2024-01-01,77.5
+2024-01-02,78.1
